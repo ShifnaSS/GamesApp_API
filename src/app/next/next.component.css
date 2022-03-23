@@ -36,7 +36,7 @@
       text-align: center;
   }
   .cards {
-    display: grid;
+    display:inline-block;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin: 6em 10vw;
@@ -51,9 +51,10 @@
     position: relative;
     display: block;
     height: 100%;  
-    border-radius: calc(var(--curve) * 1px);
+    border-radius:15px;
     overflow: hidden;
     text-decoration: none;
+    background-color: rgba(245, 245, 245, 0.473);
   }
   
   .card__image {      
